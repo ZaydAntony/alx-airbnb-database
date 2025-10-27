@@ -1,0 +1,1 @@
+## The sql file is just about create the different tables we will to store our data.
