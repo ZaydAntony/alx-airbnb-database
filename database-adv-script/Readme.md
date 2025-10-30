@@ -1,11 +1,19 @@
-## Joins In Advanced SQL
--Joins combine data from 2 or more tables based on related columns.
+# Joins In Advanced SQL
 
--This documents explains joins while covering advanced sql concepts.
+Joins combine data from two or more tables based on related columns.
 
--Left join
-    *Displays all the data from the left table
--Right Join
-    *Displays all the data from the right table.
-- Union 
-    *Helped achieve the full outer join since it isn't supported by mysql.
+This document explains different types of SQL JOINS while covering some advanced SQL concepts.
+
+## LEFT JOIN
+- Displays all the data from the left table, even if there is no match in the right table.
+
+## RIGHT JOIN
+- Displays all the data from the right table, even if there is no match in the left table.
+
+## FULL OUTER JOIN
+- Not supported directly in MySQL.
+- We use a UNION of LEFT JOIN and RIGHT JOIN to achieve the same result.
+
+## UNION
+- Combines the results of two SELECT statements.
+- Helps simulate a FULL OUTER JOIN in MySQL.
